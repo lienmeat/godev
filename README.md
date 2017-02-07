@@ -15,7 +15,7 @@ cp docker-compose-dev-template.yaml docker-compose.yaml
 ```
 docker-compose up
 ```
-# Navigate to http://localhost:3000/ping to see the "ping" endpoint
+# Navigate to http://localhost/ping to see the "ping" endpoint
 
 # Production
 To release to production, we need to compile the Go server into a binary.
