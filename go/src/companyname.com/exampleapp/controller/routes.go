@@ -58,5 +58,5 @@ var routes = Routes{
 		"GET",
 		"/ping",
 		ping,
-	}
+	},
 }

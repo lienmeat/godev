@@ -1,9 +1,9 @@
 #!/bin/bash
 
 #run inside the docker dir!
-./app_env.sh
+. app_env.sh
 
-$image_name = "$HUB_REPO/$APP_NAME:$APP_BRANCH"
+image_name="$HUB_REPO/$APP_NAME:$APP_BRANCH"
 echo "Building $image_name"
 
 # Make build folder

@@ -3,6 +3,5 @@ exampleapp-test:
   # $HUB_REPO/$APP_NAME:$APP_BRANCH
   image: app/exampleapp:master
   ports:
-  environment:
-   - PORT=80
+    - "80:8080"
 

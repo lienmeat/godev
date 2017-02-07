@@ -1,0 +1,3 @@
+docker/release/app/*
+docker/build/go/src
+gin-bin

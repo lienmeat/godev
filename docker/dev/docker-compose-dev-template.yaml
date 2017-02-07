@@ -1,6 +1,8 @@
 go:
   build: .
   volumes:
-   - "../../go/src/:/go/src/"
+    - "../../go/src/:/go/src/"
+  ports:
+    - "80:3000"
   environment:
     - GINPATH=/go/src/companyname.com/exampleapp #where our app's code lives
