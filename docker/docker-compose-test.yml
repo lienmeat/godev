@@ -1,0 +1,8 @@
+exampleapp-test:
+  #be careful to match the image with app_env.sh's
+  # $HUB_REPO/$APP_NAME:$APP_BRANCH
+  image: app/exampleapp:master
+  ports:
+  environment:
+   - PORT=80
+

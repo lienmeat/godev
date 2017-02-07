@@ -1,0 +1,6 @@
+go:
+  build: .
+  volumes:
+   - "../../go/src/:/go/src/"
+  environment:
+    - GINPATH=/go/src/companyname.com/exampleapp #where our app's code lives
